@@ -14,7 +14,7 @@ Use **only** in a lab or on systems you own/have permission to test. Unauthorize
 ## Requirements
 - Python 3.8+
 - root privileges
-
+## Guide
 - echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
 - ip a
 - sudo python3 arpSpoof.py <Victim_IP> <Your_IP>
