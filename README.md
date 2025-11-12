@@ -12,7 +12,7 @@ Use **only** in a lab or on systems you own/have permission to test. Unauthorize
 ---
 
 ## Requirements
-- Python 3.8+
+- Python 3+
 - root privileges
 ## Guide
 - echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
